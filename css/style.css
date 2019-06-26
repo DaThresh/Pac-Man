@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.row{
+    height: 40px;
+}
+
+div.row div{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+div.brick{
+    background-color: blue;
+}
+
+div.coin{
+    background-image: url('../img/coin.png');
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+}
+
+div.cherry{
+    background-image: url('../img/cherry.png');
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+}
+
+div.pacman{
+    background-image: url('../img/pacman.gif');
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+div.ghost{
+    background-image: none;
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+div#info{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+div.playerbox{
+    width: 200px;
+    text-align: center;
+}
+
+    div.playerbox h2{
+        font-size: 30pt;
+        color: cyan;
+    }
+
+    div.playerbox div.scorebox{
+        border: 1px solid black;
+        color: white;
+        font-size: 20pt;
+    }
+
+    div.playerbox div.livesbox{
+        border: 1px solid black;
+        color: white;
+        font-size: 20pt;
+    }
+
+div#p2box{
+    visibility: hidden;
+}
+
+div#buttonrow{
+    margin-top: 20px;
+    width: 800px;
+    text-align: center;
+}
+
+    div#buttonrow button{
+        border: 0;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 15pt;
+        margin: 0 10px 0 10px;
+    }
